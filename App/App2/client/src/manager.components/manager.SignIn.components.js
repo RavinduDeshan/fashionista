@@ -214,7 +214,7 @@ export default class managerSignIn extends Component {
                             <div class="container">
                                 <div class="signin-content">
                                     <div class="signin-image">
-                                        <figure><img src="http://localhost:3000/images/signin-image.jpg" alt="sing up image" /></figure>
+                                        <figure><img src="https://res.cloudinary.com/fashionistaimage/image/upload/v1591157501/signin-image_lghfil.jpg" alt="sing up image" /></figure>
 
                                     </div>
 
