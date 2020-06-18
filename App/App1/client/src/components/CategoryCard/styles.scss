@@ -1,0 +1,237 @@
+.category {
+  margin: 5px 0px;
+  padding: 10px 0px;
+  border-radius: 10px;
+  background-color: beige; 
+  box-shadow: 0 0 10px 0 #999;
+  cursor: pointer;
+  .category-content {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 5px;
+    i {
+      font-size: 20px;
+      margin: 0px 5px;
+      padding: 5px;
+      background-color: #ffffff;
+      border-radius: 10px;
+    }
+    .category-title {
+      margin: auto 0px;
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: 700;
+      white-space: nowrap;
+      overflow: hidden;
+      color: rgb(17, 17, 17);
+    }
+  }
+}
+.color1 {
+  background-color: rgba(110, 226, 135, 0.25);
+  .category-content {
+    i {
+      color: rgba(110, 226, 135, 0.918);
+    }
+  }
+}
+.color2 {
+  background-color: rgba(110, 137, 226, 0.25);
+  .category-content {
+    i {
+      color: rgba(110, 137, 226, 0.918);
+    }
+  }
+}
+.color3 {
+  background-color: rgba(255, 193, 157, 0.25);
+  .category-content {
+    i {
+      color: rgba(255, 193, 157, 0.918);
+    }
+  }
+}
+.color4 {
+  background-color: rgba(195, 157, 255, 0.25);
+  .category-content {
+    i {
+      color: rgba(195, 157, 255, 0.918);
+    }
+  }
+}
+.color5 {
+  background-color: rgba(204, 98, 98, 0.25);
+  .category-content {
+    i {
+      color: rgba(204, 98, 98, 0.25);
+    }
+  }
+}
+.color6 {
+  background-color: rgba(185, 74, 121, 0.25);
+  .category-content {
+    i {
+      color: rgba(185, 74, 121, 0.25);
+    }
+  }
+}
+.color7 {
+  background-color: rgba(219, 42, 166, 0.25);
+  .category-content {
+    i {
+      color: rgba(219, 42, 166, 0.25);
+    }
+  }
+}
+.color8 {
+  background-color: rgba(25, 130, 228, 0.25);
+  .category-content {
+    i {
+      color: rgba(25, 130, 228, 0.25);
+    }
+  }
+}
+.color9 {
+  background-color: rgba(25, 204, 228, 0.25);
+  .category-content {
+    i {
+      color: rgba(25, 204, 228, 0.25);
+    }
+  }
+}
+.color10 {
+  background-color: rgba(25, 228, 150, 0.25);
+  .category-content {
+    i {
+      color: rgba(25, 228, 150, 0.25);
+    }
+  }
+}
+.color11 {
+  background-color: rgba(66, 228, 25, 0.25);
+  .category-content {
+    i {
+      color: rgba(66, 228, 25, 0.25);
+    }
+  }
+}
+.color12 {
+  background-color: rgba(174, 228, 25, 0.25);
+  .category-content {
+    i {
+      color: rgba(174, 228, 25, 0.25);
+    }
+  }
+}
+.color13 {
+  background-color: rgba(184, 170, 46, 0.25);
+  .category-content {
+    i {
+      color: rgba(184, 170, 46, 0.25);
+    }
+  }
+}
+.color14 {
+  background-color: rgba(179, 114, 114, 0.25);
+  .category-content {
+    i {
+      color: rgba(179, 114, 114, 0.25);
+    }
+  }
+}
+.color15 {
+  background-color: rgba(122, 21, 21, 0.25);
+  .category-content {
+    i {
+      color: rgba(122, 21, 21, 0.25);
+    }
+  }
+}
+.color16 {
+  background-color: rgba(122, 70, 21, 0.25);
+  .category-content {
+    i {
+      color: rgba(122, 70, 21, 0.25);
+    }
+  }
+}
+.color17 {
+  background-color: rgba(122, 103, 21, 0.25);
+  .category-content {
+    i {
+      color: rgba(122, 103, 21, 0.25);
+    }
+  }
+}
+.color18 {
+  background-color: rgba(95, 122, 21, 0.25);
+  .category-content {
+    i {
+      color: rgba(95, 122, 21, 0.25);
+    }
+  }
+}
+.color19 {
+  background-color: rgba(58, 122, 21, 0.25);
+  .category-content {
+    i {
+      color: rgba(58, 122, 21, 0.25);
+    }
+  }
+}
+.color20 {
+  background-color: rgba(21, 122, 55, 0.25);
+  .category-content {
+    i {
+      color: rgba(21, 122, 55, 0.25);
+    }
+  }
+}
+.color21 {
+  background-color: rgba(21, 122, 92, 0.25);
+  .category-content {
+    i {
+      color: rgba(21, 122, 92, 0.25);
+    }
+  }
+}
+.color22 {
+  background-color: rgba(21, 119, 122, 0.25);
+  .category-content {
+    i {
+      color: rgba(21, 119, 122, 0.25);
+    }
+  }
+}
+.color23 {
+  background-color: rgba(21, 82, 122, 0.25);
+  .category-content {
+    i {
+      color: rgba(21, 82, 122, 0.25);
+    }
+  }
+}
+.color24 {
+  background-color: rgba(21, 45, 122, 0.25);
+  .category-content {
+    i {
+      color: rgba(21, 45, 122, 0.25);
+    }
+  }
+}
+.color25 {
+  background-color: rgba(43, 21, 122, 0.25);
+  .category-content {
+    i {
+      color: rgba(43, 21, 122, 0.25);
+    }
+  }
+}
+.color26 {
+  background-color: rgba(98, 21, 122, 0.25);
+  .category-content {
+    i {
+      color: rgba(98, 21, 122, 0.25);
+    }
+  }
+}

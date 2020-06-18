@@ -1,0 +1,30 @@
+.wishlist-page-container {
+  background-color: #ffffff;
+  padding: 0px 20px 20px 20px;
+  min-height: 800px;
+  .new-arrivals-section {
+    margin-left: 50px;
+    .mini-new-arrivals-container {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: flex-start;
+      .product {
+        width: 16%;
+        margin-right: 2.5%;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .section-header-container {
+    width: 100%;
+    .section-header {
+      width: fit-content;
+      font-size: 30px;
+      font-weight: 900;
+      margin: 40px auto;
+      color: rgb(97, 97, 97);
+      text-transform: uppercase;
+    }
+  }
+}

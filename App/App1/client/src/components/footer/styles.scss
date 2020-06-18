@@ -1,0 +1,19 @@
+footer {
+  background-color: #000000;
+  width: 100%;
+  text-align: left;
+  padding: 10px 50px 10px 50px;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 0;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    .data {
+      font-size: 12px;
+      color: #ffffff;
+      width: fit-content;
+      margin: 0px auto;
+    }
+  }
+}

@@ -1,0 +1,165 @@
+.cart-modal-container {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  background-color: rgb(220, 224, 224);
+  width: 35%;
+  z-index: 10;
+  overflow-y: scroll;
+  transform: translate(100%);
+  transition: all 0.3s ease-in-out;
+  &.open {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    background-color: rgb(220, 224, 224);
+    width: 35%;
+    z-index: 10;
+    overflow-y: scroll;
+    transform: translateX(0);
+    transition: all 0.3s ease-out;
+  }
+  .cart-content {
+    padding: 20px;
+    .cart-header {
+      font-size: 30px;
+      color: #742100;
+      font-weight: 900;
+    }
+    .close-icon-container {
+      text-align: right;
+      padding: 10px 0px 20px 0px;
+      .close-cart {
+        cursor: pointer;
+        background-color: #c40404;
+        color: #ffffff;
+        font-size: 14px;
+        padding: 5px 10px;
+        border-radius: 10px;
+        margin-right: 10px;
+        width: fit-content !important;
+        float: right;
+      }
+    }
+    .cart-item-body {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0px;
+      .cart-image-container {
+        margin-right: 15px;
+        display: flex;
+        align-items: center;
+        .cart-image {
+          display: flex;
+          max-width: fit-content;
+          max-height: fit-content;
+          img {
+            max-width: 175px;
+            max-height: 190px;
+            border-radius: 5px;
+          }
+        }
+      }
+      .cart-item-details-container {
+        border-bottom: 2px solid rgba(0, 0, 0, 0.418);
+        border-top: 2px solid rgba(0, 0, 0, 0.418);
+        width: 100%;
+        padding: 10px 0px;
+        .cart-item-header {
+          margin-bottom: 30px;
+          display: flex;
+          justify-content: space-between;
+          .cart-item-name {
+            font-size: 14px;
+            font-weight: 900;
+            color: #311000;
+          }
+          .cart-item-price {
+            color: #ff6000;
+            font-size: 14px;
+            font-weight: 700;
+            text-align: right;
+          }
+        }
+        .cart-item-details {
+          .detail-wrapper {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0px 10px;
+            .detail-left-wrapper {
+              display: flex;
+              .detail-decrease {
+                margin-right: 15px;
+                background-color: #ff6000;
+                color: #ffffff;
+                font-weight: 700;
+                padding: 2px 10px;
+                border-radius: 20px;
+                cursor: pointer;
+                user-select: none;
+              }
+              .detail-increase {
+                margin-left: 15px;
+                background-color: #03be03;
+                color: #ffffff;
+                font-weight: 700;
+                padding: 2px 10px;
+                border-radius: 20px;
+                cursor: pointer;
+                user-select: none;
+              }
+              .detail-show {
+                font-size: 18px;
+                font-weight: 900;
+                color: #525252;
+              }
+            }
+            .detail-right-wrapper {
+              font-size: 14px;
+              color: #9c0303;
+              font-weight: 900;
+              padding: 5px 0px;
+              user-select: none;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+    .billing-details {
+      width: 100%;
+      margin-top: 80px;
+      margin-right: 0;
+      margin-left: auto;
+      text-transform: uppercase;
+      text-align: right;
+      font-weight: 600;
+      .billing-details-label {
+        text-align: left;
+        font-size: 18px;
+        margin-top: 5px;
+        color: rgb(58, 58, 58);
+      }
+      .billing-details-total {
+        font-size: 25px;
+        font-weight: 600;
+        white-space: nowrap;
+        color: #ff6000;
+      }
+    }
+    .button-checkout {
+      margin-top: 50px;
+      .btn {
+        float: right;
+        width: 100%;
+        background-color: rgba(240, 71, 71, 0.87);
+        color: white;
+        font-weight: 700;
+        border-color: rgba(240, 71, 71, 0.87);
+      }
+    }
+  }
+}

@@ -1,0 +1,118 @@
+.product-page {
+  min-height: 800px;
+  background-color: #ffffff;
+  padding: 50px 20px;
+  &-rating {
+    &-header {
+      font-size: 18px;
+      font-weight: 700;
+      color: #5a5a5a;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+  }
+  &-comment {
+    padding: 20px 0px;
+    width: 50%;
+    &-header {
+      font-size: 18px;
+      font-weight: 700;
+      color: #5a5a5a;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+    &-comments {
+      padding: 10px;
+      &-box {
+        padding: 10px;
+        margin: 10px 0px;
+        box-shadow: 0 0 10px 0 #999;
+        border-radius: 10px;
+        font-size: 12px;
+        background-color: #eceaea;
+      }
+      &-input {
+        margin: 10px 0px;
+        .form-input {
+          input {
+            border: 1px solid #e6e6e6 !important;
+            border-radius: 5px;
+            margin-bottom: 10px;
+          }
+          textarea {
+            border: 1px solid #e6e6e6;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+  &-image {
+    img {
+      max-width: 100%;
+    }
+  }
+  &-name {
+    font-size: 30px;
+    font-weight: 700;
+    color: #5a5a5a;
+  }
+  &-category {
+    font-size: 18px;
+    font-weight: 700;
+    color: #5a5a5a;
+    margin-bottom: 10px;
+  }
+  &-detail {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #444444;
+    font-weight: 500;
+  }
+  &-quantity {
+    &-container {
+      margin: 50px 20px;
+      width: 30%;
+      display: flex;
+      justify-content: space-between;
+      &-icon {
+        font-size: 30px;
+        color: #187701;
+        border: 2px solid #187701;
+        padding: 0px 15px;
+        border-radius: 25px;
+        cursor: pointer;
+        user-select: none;
+      }
+      &-data {
+        font-size: 30px;
+        color: #5a5a5a;
+      }
+    }
+  }
+  &-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 60%;
+    &-cart {
+      width: 100%;
+      button {
+        width: 95%;
+        background-color: rgba(240, 71, 71, 0.87) !important;
+        border: 1px solid rgba(240, 71, 71, 0.87) !important;
+        color: #ffffff !important;
+        font-weight: 700;
+      }
+    }
+    &-list {
+      width: 100%;
+      button {
+        width: 95%;
+        border: 1px solid rgba(240, 71, 71, 0.87) !important;
+        color: rgba(240, 71, 71, 0.87) !important;
+        font-weight: 700;
+      }
+    }
+  }
+}
